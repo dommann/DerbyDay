@@ -388,6 +388,7 @@
 "Assets/Epic Toon FX/Scripts/ETFXRotation.cs"
 "Assets/FinishLine.cs"
 "Assets/FinishScene.cs"
+"Assets/PBR_Grass_Textures/Scripts/CameraFreeflight.cs"
 "Assets/RaceCamera.cs"
 "Assets/RaceController.cs"
 "Assets/RacingHorse.cs"

@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.17f1 (4fc78088f837) revision 5228416'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'tr' Physical Memory: 16332 MB
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'tr' Physical Memory: 16335 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.17f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Oguzhan/Desktop/GitHubDosyalari/DerbyDay/DerbyDay
+C:/Users/berka/Documents/GitHub/DerbyDay
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61195
-Successfully changed project path to: C:/Users/Oguzhan/Desktop/GitHubDosyalari/DerbyDay/DerbyDay
-C:/Users/Oguzhan/Desktop/GitHubDosyalari/DerbyDay/DerbyDay
+65509
+Successfully changed project path to: C:/Users/berka/Documents/GitHub/DerbyDay
+C:/Users/berka/Documents/GitHub/DerbyDay
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,74 +49,72 @@ C:/Users/Oguzhan/Desktop/GitHubDosyalari/DerbyDay/DerbyDay
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [10220] Host "[IP] 192.168.0.14 [Port] 0 [Flags] 2 [Guid] 2902866105 [EditorId] 2902866105 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-FPBCK75) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [3444] Host "[IP] 192.168.1.23 [Port] 0 [Flags] 2 [Guid] 808974788 [EditorId] 808974788 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IAJVLMT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [10220] Host "[IP] 192.168.0.14 [Port] 0 [Flags] 2 [Guid] 2902866105 [EditorId] 2902866105 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-FPBCK75) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [3444] Host "[IP] 192.168.1.23 [Port] 0 [Flags] 2 [Guid] 808974788 [EditorId] 808974788 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IAJVLMT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 1518.19 ms, found 3 plugins.
+[Physics::Module] Initialized MultithreadedJobDispatcher with 5 workers.
+Refreshing native plugins compatible for Editor in 8.55 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.17f1 (4fc78088f837)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Oguzhan/Desktop/GitHubDosyalari/DerbyDay/DerbyDay/Assets
+[Subsystems] Discovering subsystems at path C:/Users/berka/Documents/GitHub/DerbyDay/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
-    Vendor:   NVIDIA
-    VRAM:     5981 MB
-    Driver:   31.0.15.4617
+    Renderer: Radeon RX 580 Series (ID=0x67df)
+    Vendor:   ATI
+    VRAM:     8170 MB
+    Driver:   31.0.21912.14
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56148
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56488
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.313713 seconds.
-- Loaded All Assemblies, in  5.723 seconds
-Native extension for UWP target not found
+Registered in 0.009892 seconds.
+- Loaded All Assemblies, in  0.510 seconds
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 408 ms
+Android Extension - Scanning For ADB Devices 320 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.995 seconds
-Domain Reload Profiling: 6714ms
-	BeginReloadAssembly (3843ms)
+- Finished resetting the current domain, in  0.799 seconds
+Domain Reload Profiling: 1308ms
+	BeginReloadAssembly (179ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (348ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (370ms)
-	LoadAllAssembliesAndSetupDomain (1145ms)
-		LoadAssemblies (3841ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (193ms)
+		LoadAssemblies (177ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1142ms)
-			TypeCache.Refresh (1140ms)
-				TypeCache.ScanAssembly (928ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+		AnalyzeDomain (190ms)
+			TypeCache.Refresh (187ms)
+				TypeCache.ScanAssembly (172ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (995ms)
+	FinalizeReload (800ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (936ms)
+		SetupLoadedEditorAssemblies (716ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (756ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (465ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (123ms)
-			ProcessInitializeOnLoadMethodAttributes (51ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (170ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -124,9 +122,8 @@ Domain Reload Profiling: 6714ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  4.925 seconds
-Refreshing native plugins compatible for Editor in 3.76 ms, found 3 plugins.
-Native extension for UWP target not found
+- Loaded All Assemblies, in  0.941 seconds
+Refreshing native plugins compatible for Editor in 4.22 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
@@ -135,50 +132,51 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.726 seconds
-Domain Reload Profiling: 5647ms
-	BeginReloadAssembly (153ms)
+- Finished resetting the current domain, in  1.038 seconds
+Domain Reload Profiling: 1976ms
+	BeginReloadAssembly (188ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (4673ms)
-		LoadAssemblies (4083ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (644ms)
+		LoadAssemblies (491ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (681ms)
-			TypeCache.Refresh (660ms)
-				TypeCache.ScanAssembly (600ms)
-			ScanForSourceGeneratedMonoScriptInfo (15ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (726ms)
+		AnalyzeDomain (259ms)
+			TypeCache.Refresh (225ms)
+				TypeCache.ScanAssembly (199ms)
+			ScanForSourceGeneratedMonoScriptInfo (24ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1039ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (567ms)
+		SetupLoadedEditorAssemblies (822ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (46ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (45ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (82ms)
-			ProcessInitializeOnLoadAttributes (404ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
-			AfterProcessingInitializeOnLoad (12ms)
+			BeforeProcessingInitializeOnLoad (148ms)
+			ProcessInitializeOnLoadAttributes (584ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 4.26 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 5.24 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3294 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 45 unused Assets / (130.4 KB). Loaded Objects now: 3763.
-Memory consumption went from 140.6 MB to 140.5 MB.
-Total: 3.543700 ms (FindLiveObjects: 0.292400 ms CreateObjectMapping: 0.076400 ms MarkObjects: 3.012700 ms  DeleteObjects: 0.161000 ms)
+Unloading 3307 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (130.8 KB). Loaded Objects now: 3779.
+Memory consumption went from 141.0 MB to 140.9 MB.
+Total: 3.748200 ms (FindLiveObjects: 0.374000 ms CreateObjectMapping: 0.105200 ms MarkObjects: 2.948000 ms  DeleteObjects: 0.319400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
@@ -192,937 +190,881 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 310606.043596 seconds.
-  path: Assets/stadium light.prefab
-  artifactKey: Guid(04f354ef382feb54ba678b53fff5ee82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/stadium light.prefab using Guid(04f354ef382feb54ba678b53fff5ee82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba93eda45f52553b4127b0b0e700762') in 0.098578 seconds
+  Time since last request: 19177.937676 seconds.
+  path: Assets/Track_billboard_type_02_blue.prefab
+  artifactKey: Guid(7282c87863eaa954b8f9afa3444ad566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Track_billboard_type_02_blue.prefab using Guid(7282c87863eaa954b8f9afa3444ad566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3642935592f51c0f729ba9c82fc4f94') in 0.138551 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 174
+Number of asset objects unloaded after import = 23
 ========================================================================
 Received Import Request.
-  Time since last request: 147.747297 seconds.
-  path: Assets/stadium light.prefab
-  artifactKey: Guid(04f354ef382feb54ba678b53fff5ee82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/stadium light.prefab using Guid(04f354ef382feb54ba678b53fff5ee82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '324df4b069a53c056e5eff57470bed21') in 0.022729 seconds
+  Time since last request: 0.000054 seconds.
+  path: Assets/MetalFence_23_v1.prefab
+  artifactKey: Guid(5414b288fe5586449b9c712511cfffeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MetalFence_23_v1.prefab using Guid(5414b288fe5586449b9c712511cfffeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42ce10e0812037b6e14d0e6860077cae') in 0.031164 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 172
-========================================================================
-Received Import Request.
-  Time since last request: 789.101124 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Arches/Arches_03
-  artifactKey: Guid(2f7388bfe0b5b6e4e99498f7457aa466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Arches/Arches_03 using Guid(2f7388bfe0b5b6e4e99498f7457aa466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88bfc44bf3cd707f0b432112625f712c') in 0.000612 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.247940 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Arches/Arches_03/Arch_03_black.fbx
-  artifactKey: Guid(993275472d2859f419811c44a8da9acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Arches/Arches_03/Arch_03_black.fbx using Guid(993275472d2859f419811c44a8da9acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc660614e9f2de0db25d9bee2ff9a8b0') in 0.036764 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Arches/Arches_03/Arch_03_black_banner_with_text.fbx
-  artifactKey: Guid(d06d3a549de0ec5478679ab6a276f726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Arches/Arches_03/Arch_03_black_banner_with_text.fbx using Guid(d06d3a549de0ec5478679ab6a276f726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb46d897e8c7af7d28a1fde66726c54') in 0.013666 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Arches/Arches_03/Arch_03_blue_banner.fbx
-  artifactKey: Guid(54aaf077b7220e14c9304df47b88cc89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Arches/Arches_03/Arch_03_blue_banner.fbx using Guid(54aaf077b7220e14c9304df47b88cc89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '501d41c0269164c108198ffadce17774') in 0.013710 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Arches/Arches_03/Arch_03_blue_banner_with_text.fbx
-  artifactKey: Guid(08206874038494640b4a47003bfb317e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Arches/Arches_03/Arch_03_blue_banner_with_text.fbx using Guid(08206874038494640b4a47003bfb317e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f16f424b94eab860a835c7678284879d') in 0.013836 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Arches/Arches_03/Arch_03_green_for_banner.fbx
-  artifactKey: Guid(00fbf33acf966a04290bae9550d1af9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Arches/Arches_03/Arch_03_green_for_banner.fbx using Guid(00fbf33acf966a04290bae9550d1af9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6c4a49b2e10f43b330659cccba8909a') in 0.017482 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Arches/Arches_03/Arch_03_green_with_banner.fbx
-  artifactKey: Guid(ee60b5a2f5fe2844a81fdb9de2f6006c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Arches/Arches_03/Arch_03_green_with_banner.fbx using Guid(ee60b5a2f5fe2844a81fdb9de2f6006c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b4e675866943f8e7e4e408e071a86f8') in 0.014677 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Arches/Arches_03/Arch_03_grey_for_banner.fbx
-  artifactKey: Guid(621decd74d701ae4eb88c5e9aeff8b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Arches/Arches_03/Arch_03_grey_for_banner.fbx using Guid(621decd74d701ae4eb88c5e9aeff8b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '113d0307825caf7db9e670a2367be5e2') in 0.013970 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Arches/Arches_03/Arch_03_grey_banner_with_text.fbx
-  artifactKey: Guid(2c2b13a5ed0c7264996448c8fdc1e374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Arches/Arches_03/Arch_03_grey_banner_with_text.fbx using Guid(2c2b13a5ed0c7264996448c8fdc1e374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23605fa8388685ff3ac277711d37bd72') in 0.013263 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Arches/Arches_03/Arch_03_green_banner_with_text.fbx
-  artifactKey: Guid(d5ac67e3d161b894a9e0351de7d90371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Arches/Arches_03/Arch_03_green_banner_with_text.fbx using Guid(d5ac67e3d161b894a9e0351de7d90371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bcee4b90dd92e725c46265272fa84fe') in 0.012934 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Arches/Arches_03/Arch_03_orange_with_banner.fbx
-  artifactKey: Guid(249ef8923085dac42b1a5fc4a7edd747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Arches/Arches_03/Arch_03_orange_with_banner.fbx using Guid(249ef8923085dac42b1a5fc4a7edd747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b2d5de49fe6a7d09112bb148bc69ed9') in 0.014298 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Arches/Arches_03/Arch_03_red_banner.fbx
-  artifactKey: Guid(5d15298758690504baaf637c7cad54c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Arches/Arches_03/Arch_03_red_banner.fbx using Guid(5d15298758690504baaf637c7cad54c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '367dee8ac9e8974bc3eff22a7a0a0273') in 0.013834 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Arches/Arches_03/Arch_03_red_banner_with_text.fbx
-  artifactKey: Guid(4086cf295e35e8944be6c973afefe73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Arches/Arches_03/Arch_03_red_banner_with_text.fbx using Guid(4086cf295e35e8944be6c973afefe73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c1d6de5299a18cae56bf61b0123ea71') in 0.013333 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Arches/Arches_03/Arch_03_black_with_banner.fbx
-  artifactKey: Guid(b3bd884ab19370b4d8235b7015df0471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Arches/Arches_03/Arch_03_black_with_banner.fbx using Guid(b3bd884ab19370b4d8235b7015df0471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c33fc87782b012b651a9e30c150cad88') in 0.015716 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Arches/Arches_03/Arch_03_white_for_banner.fbx
-  artifactKey: Guid(8ce261987cfc043408d42ddd7177a665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Arches/Arches_03/Arch_03_white_for_banner.fbx using Guid(8ce261987cfc043408d42ddd7177a665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b3238b7ecc0e298c0766bcdf7f35d0') in 0.012444 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Arches/Arches_03/Arch_03_white_banner.fbx
-  artifactKey: Guid(dd1d27dda7eeb5a4088a3a9ec8cfff15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Arches/Arches_03/Arch_03_white_banner.fbx using Guid(dd1d27dda7eeb5a4088a3a9ec8cfff15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9adcd188e48808d964259b48c41f6af') in 0.012518 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Arches/Arches_03/Arch_03_blue.fbx
-  artifactKey: Guid(c010823e9763c564289f277b93b7f000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Arches/Arches_03/Arch_03_blue.fbx using Guid(c010823e9763c564289f277b93b7f000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c60664e492490ce2d953ac1fb86a2dec') in 0.013672 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Arches/Arches_03/Arch_03_red_with_banner.fbx
-  artifactKey: Guid(70a9799c749fe2c4585f22959911be28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Arches/Arches_03/Arch_03_red_with_banner.fbx using Guid(70a9799c749fe2c4585f22959911be28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28f7a46ddf9022335e5a75e3ea797801') in 0.026602 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Arches/Arches_03/Arch_03_grey_banner.fbx
-  artifactKey: Guid(6e7ba59c5a332e345a35e8d9ace3964c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Arches/Arches_03/Arch_03_grey_banner.fbx using Guid(6e7ba59c5a332e345a35e8d9ace3964c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61bb5e8c39d99749b1ac9ca60e1ef282') in 0.015949 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Arches/Arches_03/Arch_03_green.fbx
-  artifactKey: Guid(ec3e63fec0e27df409982d332e976adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Arches/Arches_03/Arch_03_green.fbx using Guid(ec3e63fec0e27df409982d332e976adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6878ce2d7fe5775672dc84959994eec0') in 0.018596 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Arches/Arches_03/Arch_03_black_for_banner.fbx
-  artifactKey: Guid(06d47cc881d75f541934cca3c4c6189b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Arches/Arches_03/Arch_03_black_for_banner.fbx using Guid(06d47cc881d75f541934cca3c4c6189b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5f2e2ad80766e9b6e5747465fd618e0') in 0.018513 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Arches/Arches_03/Arch_03_blue_for_banner.fbx
-  artifactKey: Guid(5c73bf14694eccb42a6033eb98907473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Arches/Arches_03/Arch_03_blue_for_banner.fbx using Guid(5c73bf14694eccb42a6033eb98907473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a80dd70864f800c9557328ac8cd8872e') in 0.016450 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Arches/Arches_03/Arch_03_yellow_for_banner.fbx
-  artifactKey: Guid(c1cdeb8ec165448409cfcf9a75e61279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Arches/Arches_03/Arch_03_yellow_for_banner.fbx using Guid(c1cdeb8ec165448409cfcf9a75e61279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b21769a5db11a7dfcb48ecc3919aa96') in 0.016864 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 14.787696 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas
-  artifactKey: Guid(83316b8dad70512459a2631681d6e910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas using Guid(83316b8dad70512459a2631681d6e910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70529787f961322855318dfb1ffa1964') in 0.000821 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.023017 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_tent_type_01_blue.fbx
-  artifactKey: Guid(1f517c92172a61d4db3056af34aad989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_tent_type_01_blue.fbx using Guid(1f517c92172a61d4db3056af34aad989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7db3ecc30d8bc2aa5a8b0b57442c6335') in 0.013023 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_tent_type_01_grey.fbx
-  artifactKey: Guid(d6cac447b353ddb449a5ef227bdd500b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_tent_type_01_grey.fbx using Guid(d6cac447b353ddb449a5ef227bdd500b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e12798a88bce13f0f69f2b61d3b030') in 0.013521 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_tent_type_01_red.fbx
-  artifactKey: Guid(3dd87609e9456c240b6a654e7a4878ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_tent_type_01_red.fbx using Guid(3dd87609e9456c240b6a654e7a4878ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '755d7aa59b65be121c547fa01049f6c1') in 0.013874 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_tent_type_01_sky.fbx
-  artifactKey: Guid(902b0f0a1419bd647b6e39353b37c85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_tent_type_01_sky.fbx using Guid(902b0f0a1419bd647b6e39353b37c85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b0c95da33a61d16b828eafec280fbc5') in 0.013692 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 12
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_tent_type_02_green.fbx
-  artifactKey: Guid(c390f356e3dfe0442b4887c9dec68645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_tent_type_02_green.fbx using Guid(c390f356e3dfe0442b4887c9dec68645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24b397e25964e5a7ad97b5bc8f04c8d8') in 0.013423 seconds
+  path: Assets/Track_Fence_grid_type_block_yellow_obs.prefab
+  artifactKey: Guid(441482d548b1c644c8eab2acd3ca7f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Track_Fence_grid_type_block_yellow_obs.prefab using Guid(441482d548b1c644c8eab2acd3ca7f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a92d5377aaea944988cdd61f32933a') in 0.025045 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_tent_type_02_pink.fbx
-  artifactKey: Guid(46bd94f7ca3df4545b6ff2e9c8df03a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_tent_type_02_pink.fbx using Guid(46bd94f7ca3df4545b6ff2e9c8df03a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e4321d1fa39deee319bedfc4471c62') in 0.013313 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_tent_type_02_yellow.fbx
-  artifactKey: Guid(55a94756a931bf44f8234bdf1bab4b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_tent_type_02_yellow.fbx using Guid(55a94756a931bf44f8234bdf1bab4b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59f9543c62af0d91a273a89b60b2c6f6') in 0.013718 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_tent_type_03_grey.fbx
-  artifactKey: Guid(08f10d0cd86b9fa4e9b8cd03a5355d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_tent_type_03_grey.fbx using Guid(08f10d0cd86b9fa4e9b8cd03a5355d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd2fc42b96c618e5f87a95e9da211e9a') in 0.012717 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_tent_type_03_red.fbx
-  artifactKey: Guid(f46a4b00fcf94b14485a5a5854834b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_tent_type_03_red.fbx using Guid(f46a4b00fcf94b14485a5a5854834b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fcb0c8ff0a43d9ac0ca1c6821f19e9d') in 0.013088 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_tent_type_03_sky.fbx
-  artifactKey: Guid(80b6c0087f4aca04a84a87a13fbe6da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_tent_type_03_sky.fbx using Guid(80b6c0087f4aca04a84a87a13fbe6da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '551493cb44217bfc7b635b61f7c9343f') in 0.012793 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_tent_type_04_green.fbx
-  artifactKey: Guid(2633e7651ad5c3f4ab368d48f0e6c46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_tent_type_04_green.fbx using Guid(2633e7651ad5c3f4ab368d48f0e6c46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beee3da266a42f6c58fb70356aeca3b3') in 0.013206 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_tent_type_04_red.fbx
-  artifactKey: Guid(c31040069c0d62c40a44881fcfd2d4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_tent_type_04_red.fbx using Guid(c31040069c0d62c40a44881fcfd2d4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7b22eb7ae714dfe1fe307d68c6cce39') in 0.012758 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_tent_type_03_orange.fbx
-  artifactKey: Guid(d46ae6c003599934483b25ab9ba30726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_tent_type_03_orange.fbx using Guid(d46ae6c003599934483b25ab9ba30726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88399b0c6f1e269cc63057d1f1036cc8') in 0.013556 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_tent_type_05_green.fbx
-  artifactKey: Guid(914f81d840e2f0a44a54f67dbe9e726f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_tent_type_05_green.fbx using Guid(914f81d840e2f0a44a54f67dbe9e726f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b23767b89528925097ac6f189ace8b7') in 0.013178 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_tent_type_05_red.fbx
-  artifactKey: Guid(ac9c8c501a6dde742adb907cce95cf60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_tent_type_05_red.fbx using Guid(ac9c8c501a6dde742adb907cce95cf60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38f458c6877d361d0d5dd77f27e88919') in 0.013941 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_tent_type_05_sky.fbx
-  artifactKey: Guid(949f7f9519cf92d479da9fa2536247e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_tent_type_05_sky.fbx using Guid(949f7f9519cf92d479da9fa2536247e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0424090a54ec427b147de5026e6d3a43') in 0.013235 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_umbrella_type_01_grey.fbx
-  artifactKey: Guid(8e4a8d82a0c8d1241bf1b3bf0d2119a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_umbrella_type_01_grey.fbx using Guid(8e4a8d82a0c8d1241bf1b3bf0d2119a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e150f578da1e27b9756bfe2082492fd0') in 0.013320 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_umbrella_type_01_orange.fbx
-  artifactKey: Guid(1493591fbcb708f4e8747b19aedd742a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_umbrella_type_01_orange.fbx using Guid(1493591fbcb708f4e8747b19aedd742a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb3993f84f7b6b66a7a26e0dc4d5bcfc') in 0.012475 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 10
 ========================================================================
 Received Import Request.
   Time since last request: 0.000025 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_umbrella_type_01_red.fbx
-  artifactKey: Guid(aea620546a9a1ae439cbe0425170b3bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_umbrella_type_01_red.fbx using Guid(aea620546a9a1ae439cbe0425170b3bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bcfa862b32e67a329ba9e0587640596') in 0.014390 seconds
+  path: Assets/Tribunes.prefab
+  artifactKey: Guid(27ed47f8bf5771243bd4ac389d814682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tribunes.prefab using Guid(27ed47f8bf5771243bd4ac389d814682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '239150eb8eceb76bcd273c81c261ad6b') in 0.019097 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_umbrella_type_01_blue.fbx
-  artifactKey: Guid(9e72b91301f4de74db57ff331cb4455c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_umbrella_type_01_blue.fbx using Guid(9e72b91301f4de74db57ff331cb4455c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf17a7f724c2b16d22920b29ee5116e4') in 0.015501 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_umbrella_type_01_pink.fbx
-  artifactKey: Guid(385fc7d65cb5f1348b3f492c0db09d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_umbrella_type_01_pink.fbx using Guid(385fc7d65cb5f1348b3f492c0db09d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff7d3b1ad165b13d4446f1c6a008584b') in 0.016167 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_tent_type_04_yellow.fbx
-  artifactKey: Guid(c4177dafdb058a64fb7437ae02c09f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_tent_type_04_yellow.fbx using Guid(c4177dafdb058a64fb7437ae02c09f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07eb8065c4deae2ef6f3cdc648a45ef1') in 0.025189 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_tent_type_04_blue.fbx
-  artifactKey: Guid(4c2cc310dcf4b31489557459819aff80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_tent_type_04_blue.fbx using Guid(4c2cc310dcf4b31489557459819aff80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '042b7c49be1596dc834e22f2cf2782a1') in 0.018968 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_tent_type_03_green.fbx
-  artifactKey: Guid(d7865947436a03044b654b8a01b8919c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_tent_type_03_green.fbx using Guid(d7865947436a03044b654b8a01b8919c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49effa316168c97ef236b1376579a3a4') in 0.018821 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_tent_type_01_yellow.fbx
-  artifactKey: Guid(d7b1932423641714d91845b0cc52e1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_tent_type_01_yellow.fbx using Guid(d7b1932423641714d91845b0cc52e1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '002386b4c7bf9ee768e9b534faf7992c') in 0.018795 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.672386 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_umbrella_type_02_green.fbx
-  artifactKey: Guid(9e320596f7cfb434a9595bd57648c3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_umbrella_type_02_green.fbx using Guid(9e320596f7cfb434a9595bd57648c3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8736d2e3de1fce815c383cf33fb29575') in 0.020990 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_umbrella_type_02_pink.fbx
-  artifactKey: Guid(9854cdf497ad75e48bd2f93536684e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_umbrella_type_02_pink.fbx using Guid(9854cdf497ad75e48bd2f93536684e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6874f655f47e275736379a9a2e1b13bb') in 0.019168 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_umbrella_type_02_yellow.fbx
-  artifactKey: Guid(c2f2bde3e3023bd41a0768753c9e67ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_umbrella_type_02_yellow.fbx using Guid(c2f2bde3e3023bd41a0768753c9e67ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e9d78b11fa438ca35ed71e4b02e44e') in 0.103955 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 27
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_umbrella_type_02_orange.fbx
-  artifactKey: Guid(da82ec87daeaf8d4ba4baecd37f9095b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Tents&Umbrellas/Track_umbrella_type_02_orange.fbx using Guid(da82ec87daeaf8d4ba4baecd37f9095b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0807403c359b3e537ee49f64c45b26b7') in 0.032172 seconds
+  path: Assets/Scenes/test.unity
+  artifactKey: Guid(7216208c324bbf54c96fd3e238fbf8bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/test.unity using Guid(7216208c324bbf54c96fd3e238fbf8bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74cbee135fa4478097d24ca7d7241ee8') in 0.000606 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 2132.736233 seconds.
+  Time since last request: 0.000063 seconds.
   path: Assets/stadium light.prefab
   artifactKey: Guid(04f354ef382feb54ba678b53fff5ee82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/stadium light.prefab using Guid(04f354ef382feb54ba678b53fff5ee82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '050f55d7dafa297cc531b4b6fe4d43fd') in 0.042797 seconds
+Start importing Assets/stadium light.prefab using Guid(04f354ef382feb54ba678b53fff5ee82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc92ff4f35bc7f93d2e3f2610f42e8d') in 0.028622 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 172
 ========================================================================
 Received Import Request.
-  Time since last request: 80.047516 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Signs/Signs_Oneside
-  artifactKey: Guid(e3bf590487cac054cb46852f4c4b23af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Signs/Signs_Oneside using Guid(e3bf590487cac054cb46852f4c4b23af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f506ba443836d2599267925c45c404a') in 0.000644 seconds
+  Time since last request: 0.000025 seconds.
+  path: Assets/Track_billboard_type_03_yellow_02_obs.prefab
+  artifactKey: Guid(5a9bce0c9475e4a409fce1f90364e941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Track_billboard_type_03_yellow_02_obs.prefab using Guid(5a9bce0c9475e4a409fce1f90364e941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84192c750caa6c6634e8efc81ab3f756') in 0.027458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 0.122215 seconds.
+  path: Assets/racingscene.unity
+  artifactKey: Guid(de992c893e349cd438743176c44f0e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/racingscene.unity using Guid(de992c893e349cd438743176c44f0e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4271f15ceac399922bb0aae9615c639') in 0.000619 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.049981 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Signs/Signs_Oneside/Track_signs_01_single_arrow_01_oneside.fbx
-  artifactKey: Guid(227e71243d315b947bbe3a9d87276df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Signs/Signs_Oneside/Track_signs_01_single_arrow_01_oneside.fbx using Guid(227e71243d315b947bbe3a9d87276df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '056b0528d948cbcce3251420967aaa77') in 0.014224 seconds
+  Time since last request: 125.831220 seconds.
+  path: Assets/Player1.prefab
+  artifactKey: Guid(9b826e59b0c5e1540b3d028c0289ac68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player1.prefab using Guid(9b826e59b0c5e1540b3d028c0289ac68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c247bb2c293baa7bd729689d6e190374') in 0.239875 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 246
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.662 seconds
+Refreshing native plugins compatible for Editor in 3.87 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.277 seconds
+Domain Reload Profiling: 1934ms
+	BeginReloadAssembly (178ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (387ms)
+		LoadAssemblies (472ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1277ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (682ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (49ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (132ms)
+			ProcessInitializeOnLoadAttributes (457ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 3.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3282 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (102.3 KB). Loaded Objects now: 3804.
+Memory consumption went from 138.3 MB to 138.2 MB.
+Total: 4.229800 ms (FindLiveObjects: 0.355000 ms CreateObjectMapping: 0.127300 ms MarkObjects: 3.653700 ms  DeleteObjects: 0.092200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Signs/Signs_Oneside/Track_signs_01_single_arrow_03_oneside.fbx
-  artifactKey: Guid(e9bc310a61421114aa60efd4d1345bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Signs/Signs_Oneside/Track_signs_01_single_arrow_03_oneside.fbx using Guid(e9bc310a61421114aa60efd4d1345bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '741d0069eb9595914d5c7a97755c522a') in 0.013818 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Signs/Signs_Oneside/Track_signs_01_single_arrow_05_oneside.fbx
-  artifactKey: Guid(924c568b808474e438866f7b193785a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Signs/Signs_Oneside/Track_signs_01_single_arrow_05_oneside.fbx using Guid(924c568b808474e438866f7b193785a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '134cc534d9947c2f7f822018eae9e485') in 0.014974 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Signs/Signs_Oneside/Track_signs_01_single_arrow_07_oneside.fbx
-  artifactKey: Guid(7339b0a3ce5188e4f9164e8d2952a997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Signs/Signs_Oneside/Track_signs_01_single_arrow_07_oneside.fbx using Guid(7339b0a3ce5188e4f9164e8d2952a997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89dedd9f6df16e821c909d8092a2b0ec') in 0.017167 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Signs/Signs_Oneside/Track_signs_01_single_arrow_12_oneside.fbx
-  artifactKey: Guid(1a97e937c50530b4d9e70e5a3417fef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Signs/Signs_Oneside/Track_signs_01_single_arrow_12_oneside.fbx using Guid(1a97e937c50530b4d9e70e5a3417fef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c650b1bb023eab37860d4e47b6cba711') in 0.014289 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Signs/Signs_Oneside/Track_signs_01_single_arrow_08_oneside.fbx
-  artifactKey: Guid(d29cdadb7cf53334da1ee681172a2447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Signs/Signs_Oneside/Track_signs_01_single_arrow_08_oneside.fbx using Guid(d29cdadb7cf53334da1ee681172a2447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42222f552c69517754c38f96803a24e8') in 0.014376 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Signs/Signs_Oneside/Track_signs_02_middle_arrow_03_oneside.fbx
-  artifactKey: Guid(e875b559615174e45b9461f29fed85e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Signs/Signs_Oneside/Track_signs_02_middle_arrow_03_oneside.fbx using Guid(e875b559615174e45b9461f29fed85e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae272f74befa0027f36ef653383f82e') in 0.015031 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Signs/Signs_Oneside/Track_signs_02_middle_arrow_06_oneside.fbx
-  artifactKey: Guid(2668d9d81a3c4d44a9322b233408cb1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Signs/Signs_Oneside/Track_signs_02_middle_arrow_06_oneside.fbx using Guid(2668d9d81a3c4d44a9322b233408cb1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '240bb2bd01473b00576b6711bfd9ffd1') in 0.014606 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Signs/Signs_Oneside/Track_signs_02_middle_arrow_02_oneside.fbx
-  artifactKey: Guid(13c44a09895d7b748a25aaf1e5fa6c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Signs/Signs_Oneside/Track_signs_02_middle_arrow_02_oneside.fbx using Guid(13c44a09895d7b748a25aaf1e5fa6c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de4418c8e82f0113379ad6e0a83e77a2') in 0.016414 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Signs/Signs_Oneside/Track_signs_02_middle_arrow_09_oneside.fbx
-  artifactKey: Guid(7835d6ebf3e2c5d4597e30290830bd0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Signs/Signs_Oneside/Track_signs_02_middle_arrow_09_oneside.fbx using Guid(7835d6ebf3e2c5d4597e30290830bd0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c9d7bc37bee237fc21c77b113a30dd') in 0.016754 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Signs/Signs_Oneside/Track_signs_02_middle_arrow_05_oneside.fbx
-  artifactKey: Guid(5b78b632c8cd30648a706a040611779f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Signs/Signs_Oneside/Track_signs_02_middle_arrow_05_oneside.fbx using Guid(5b78b632c8cd30648a706a040611779f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea2c37049f4ac6fb442ad6c6eb3c98e6') in 0.017880 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Signs/Signs_Oneside/Track_signs_02_middle_arrow_12_oneside.fbx
-  artifactKey: Guid(9eca05eb431cdee48b9afee0ec590a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Signs/Signs_Oneside/Track_signs_02_middle_arrow_12_oneside.fbx using Guid(9eca05eb431cdee48b9afee0ec590a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f48f483ba0156e037b564b2ad7c01ca5') in 0.016947 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 13.537890 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Tires
-  artifactKey: Guid(ea50b14d9c7804248b57aba3dfaedcfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Tires using Guid(ea50b14d9c7804248b57aba3dfaedcfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd570cf405ecc978041aadea3c7158a0b') in 0.000943 seconds
+  Time since last request: 40.164100 seconds.
+  path: Assets/Scenes/racingscene.unity
+  artifactKey: Guid(de992c893e349cd438743176c44f0e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/racingscene.unity using Guid(de992c893e349cd438743176c44f0e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '664eb0ca33a4d91bbcb8cda9c5c36919') in 0.002274 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.219226 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Tires/Track_tire_01_Style_black.fbx
-  artifactKey: Guid(10289a7dba6ba294595f10d92b8d744f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Tires/Track_tire_01_Style_black.fbx using Guid(10289a7dba6ba294595f10d92b8d744f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8935a7e61b5f61c3c0adb1d5e67889a7') in 0.024296 seconds
+  Time since last request: 48.798834 seconds.
+  path: Assets/Cartoon Talking Horse/Materials/Bridle_Diffuse1.mat
+  artifactKey: Guid(9ecd021177c061949b0ce26891f89a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Talking Horse/Materials/Bridle_Diffuse1.mat using Guid(9ecd021177c061949b0ce26891f89a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd56d9df48a5f9441aa8b52d03577960') in 0.099772 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Tires/Track_tire_01_Style_green.fbx
-  artifactKey: Guid(f01ac7704ad703d49aba33516ae6c897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Tires/Track_tire_01_Style_green.fbx using Guid(f01ac7704ad703d49aba33516ae6c897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76b91a114cf04208e7c3a49b29d2d0e8') in 0.021909 seconds
+  Time since last request: 0.000037 seconds.
+  path: Assets/Cartoon Talking Horse/Materials/CartoonHorse_Diffuse1_1.mat
+  artifactKey: Guid(dba9b4933b85fd347a7cd956eeab88fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Talking Horse/Materials/CartoonHorse_Diffuse1_1.mat using Guid(dba9b4933b85fd347a7cd956eeab88fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '245a5de62d0c73085e0b78a2f1c86bc8') in 0.015677 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Tires/Track_tire_01_Style_grey.fbx
-  artifactKey: Guid(81d34bdedb2cf0445a2063438cad5e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Tires/Track_tire_01_Style_grey.fbx using Guid(81d34bdedb2cf0445a2063438cad5e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7f6c58fd5e49ca7455adeb6c5c2b8c9') in 0.021727 seconds
+  Time since last request: 2.538674 seconds.
+  path: Assets/Cartoon Talking Horse/Materials
+  artifactKey: Guid(4270751e1f7f85743a3ce07d04ba4902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Talking Horse/Materials using Guid(4270751e1f7f85743a3ce07d04ba4902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5db625b8477273f344e54035d67a89a7') in 0.000606 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Tires/Track_tire_01_Style_red.fbx
-  artifactKey: Guid(1cfeb67340442ab488a8857cab2e888b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Tires/Track_tire_01_Style_red.fbx using Guid(1cfeb67340442ab488a8857cab2e888b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8d49de5781ce846e2ef22498a5de245') in 0.014878 seconds
+  Time since last request: 13.181425 seconds.
+  path: Assets/Cartoon Talking Horse/Meshes
+  artifactKey: Guid(f7bcb6ad4fd16704f9015cbb66597b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Talking Horse/Meshes using Guid(f7bcb6ad4fd16704f9015cbb66597b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca0606f4bdc82ee719610cf045d7140') in 0.000543 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Tires/Track_tire_02_Style_01_1.fbx
-  artifactKey: Guid(281057c14261be245b8c26aba6d8001e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Tires/Track_tire_02_Style_01_1.fbx using Guid(281057c14261be245b8c26aba6d8001e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b4564f1848a02173443f2703b06af3') in 0.014180 seconds
+  Time since last request: 0.777225 seconds.
+  path: Assets/Cartoon Talking Horse/Prefabs/Cartoon_Talking_Horse.prefab
+  artifactKey: Guid(1e1bd58b25a53f84286d19a2745542f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Talking Horse/Prefabs/Cartoon_Talking_Horse.prefab using Guid(1e1bd58b25a53f84286d19a2745542f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ddf4450a0fa3e7876353ae9a844cd0d') in 0.053678 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 154
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.570 seconds
+Refreshing native plugins compatible for Editor in 4.21 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.441 seconds
+Domain Reload Profiling: 2008ms
+	BeginReloadAssembly (167ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (319ms)
+		LoadAssemblies (393ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1442ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (795ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (47ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (140ms)
+			ProcessInitializeOnLoadAttributes (559ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 5.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3282 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (102.4 KB). Loaded Objects now: 3852.
+Memory consumption went from 140.5 MB to 140.4 MB.
+Total: 5.149700 ms (FindLiveObjects: 0.364100 ms CreateObjectMapping: 0.102700 ms MarkObjects: 4.586400 ms  DeleteObjects: 0.094700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.586 seconds
+Refreshing native plugins compatible for Editor in 3.89 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.393 seconds
+Domain Reload Profiling: 1976ms
+	BeginReloadAssembly (174ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (330ms)
+		LoadAssemblies (409ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1394ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (742ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (51ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (136ms)
+			ProcessInitializeOnLoadAttributes (510ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 4.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3283 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (102.3 KB). Loaded Objects now: 3867.
+Memory consumption went from 142.7 MB to 142.6 MB.
+Total: 3.901400 ms (FindLiveObjects: 0.375300 ms CreateObjectMapping: 0.105700 ms MarkObjects: 3.304300 ms  DeleteObjects: 0.114700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Tires/Track_tire_02_Style_03_4.fbx
-  artifactKey: Guid(b46aa95d6fae80a42a8e0faea1872f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Tires/Track_tire_02_Style_03_4.fbx using Guid(b46aa95d6fae80a42a8e0faea1872f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '117b3eb2b7f42a7b2af0dcf1c03e86f8') in 0.015224 seconds
+  Time since last request: 122.166382 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(e81a4b245ccb8a64083f5d0bc1c659fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(e81a4b245ccb8a64083f5d0bc1c659fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8895868c06d96b9d5ceaff88945b0653') in 0.002240 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Tires/Track_tire_02_Style_03_3.fbx
-  artifactKey: Guid(d9e6fba90a6b4984eac0ac90ef8dae07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Tires/Track_tire_02_Style_03_3.fbx using Guid(d9e6fba90a6b4984eac0ac90ef8dae07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83738489d26d303ea09986e0809a2084') in 0.014438 seconds
+  Time since last request: 0.036523 seconds.
+  path: Assets/Materials/ars.mat
+  artifactKey: Guid(d2a0d941c4e61224490c645852544e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ars.mat using Guid(d2a0d941c4e61224490c645852544e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76581ce906b05bf402f0bdf28728433b') in 0.102132 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Tires/Track_tire_02_Style_04_4.fbx
-  artifactKey: Guid(44ecca3004ec3754ba24175e4f41a4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Tires/Track_tire_02_Style_04_4.fbx using Guid(44ecca3004ec3754ba24175e4f41a4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4277460ef909b295fbfa878e7355cb60') in 0.014061 seconds
+  Time since last request: 0.000026 seconds.
+  path: Assets/Materials/Golden_Crown_1Mat.mat
+  artifactKey: Guid(85d2a7755462fca43a35dd9c33e1c12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Golden_Crown_1Mat.mat using Guid(85d2a7755462fca43a35dd9c33e1c12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a08e292001bfce768274cba8a2d98499') in 0.020504 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Materials/Golden_Crown_4Mat.mat
+  artifactKey: Guid(959d9aa630383354b8bd359ae945fdc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Golden_Crown_4Mat.mat using Guid(959d9aa630383354b8bd359ae945fdc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '457a9b4f530a1ac89d2ebbb4be623147') in 0.019898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Materials/Golden_CrownMat.mat
+  artifactKey: Guid(4b6b4cc27ab05d843a2124fb2a1f7364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Golden_CrownMat.mat using Guid(4b6b4cc27ab05d843a2124fb2a1f7364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'affdfa6b0a45dbee546153f29c86ef4b') in 0.021241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Materials/Golden_Crown_6Mat.mat
+  artifactKey: Guid(f221bb2be9255dd4994d8ea353624f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Golden_Crown_6Mat.mat using Guid(f221bb2be9255dd4994d8ea353624f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c32b34fd2eb1ebd5f39df0d0eccee655') in 0.026679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 251.773081 seconds.
+  path: Assets/Cartoon Talking Horse/Prefabs
+  artifactKey: Guid(b389db00ba47b924487bfe9b136ab3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Talking Horse/Prefabs using Guid(b389db00ba47b924487bfe9b136ab3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98098732609cd8ef21ab3e0c862b5ee5') in 0.000573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.103195 seconds.
+  path: Assets/Cartoon Talking Horse/Prefabs/Cartoon_Talking_Horse.prefab
+  artifactKey: Guid(1e1bd58b25a53f84286d19a2745542f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Talking Horse/Prefabs/Cartoon_Talking_Horse.prefab using Guid(1e1bd58b25a53f84286d19a2745542f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb4b8c51378499fa98ba2ac2646bff1c') in 0.064413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 158
+========================================================================
+Received Import Request.
+  Time since last request: 56.707591 seconds.
+  path: Assets/Player1.prefab
+  artifactKey: Guid(9b826e59b0c5e1540b3d028c0289ac68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player1.prefab using Guid(9b826e59b0c5e1540b3d028c0289ac68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74968a4723a620ee4fc7961163bd03a2') in 0.129017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 250
+========================================================================
+Received Import Request.
+  Time since last request: 5.892748 seconds.
+  path: Assets/RacingHorse.cs
+  artifactKey: Guid(c609e5170460e634188ab93a55f38ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RacingHorse.cs using Guid(c609e5170460e634188ab93a55f38ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f66427d085481d47f3bb8f9965d1a8b') in 0.000848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 45.651424 seconds.
+  path: Assets/Cartoon Talking Horse/Prefabs/RaceController.cs
+  artifactKey: Guid(aea4eec58d2a54b428dcc33c8289d4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Talking Horse/Prefabs/RaceController.cs using Guid(aea4eec58d2a54b428dcc33c8289d4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41110d16a1a2e0a5697dd4013133bc3d') in 0.000556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.660 seconds
+Refreshing native plugins compatible for Editor in 4.35 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.458 seconds
+Domain Reload Profiling: 2115ms
+	BeginReloadAssembly (187ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (386ms)
+		LoadAssemblies (468ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1459ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (592ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (45ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (120ms)
+			ProcessInitializeOnLoadAttributes (388ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 4.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3282 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (102.3 KB). Loaded Objects now: 3882.
+Memory consumption went from 144.4 MB to 144.3 MB.
+Total: 3.041900 ms (FindLiveObjects: 0.335500 ms CreateObjectMapping: 0.103200 ms MarkObjects: 2.530600 ms  DeleteObjects: 0.071700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.589 seconds
+Refreshing native plugins compatible for Editor in 4.61 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.502 seconds
+Domain Reload Profiling: 2088ms
+	BeginReloadAssembly (171ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (329ms)
+		LoadAssemblies (405ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1503ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (803ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (61ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (163ms)
+			ProcessInitializeOnLoadAttributes (530ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 5.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3283 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (102.4 KB). Loaded Objects now: 3897.
+Memory consumption went from 146.6 MB to 146.5 MB.
+Total: 5.237700 ms (FindLiveObjects: 0.411300 ms CreateObjectMapping: 0.107900 ms MarkObjects: 4.611700 ms  DeleteObjects: 0.105400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 124.293867 seconds.
+  path: Assets/Cartoon Talking Horse/Prefabs/Materials/seamless_cartoon_grass_texture_by_mbrockwell_d3byyeg-375w-2x.mat
+  artifactKey: Guid(dceef1abb98e298468ccff1f03d76bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Talking Horse/Prefabs/Materials/seamless_cartoon_grass_texture_by_mbrockwell_d3byyeg-375w-2x.mat using Guid(dceef1abb98e298468ccff1f03d76bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'accc7acfe192a6bf74afead143117b7c') in 0.092396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 10.079490 seconds.
+  path: Assets/Cartoon Talking Horse/Prefabs/Materials/seamless_cartoon_grass_texture_by_mbrockwell_d3byyeg-375w-2x.mat
+  artifactKey: Guid(dceef1abb98e298468ccff1f03d76bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Talking Horse/Prefabs/Materials/seamless_cartoon_grass_texture_by_mbrockwell_d3byyeg-375w-2x.mat using Guid(dceef1abb98e298468ccff1f03d76bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba2c3c28962f6d76c4df683b6af82dc6') in 0.020286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 65.864758 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(baae77c8733c78e439e0c1aab606ab88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(baae77c8733c78e439e0c1aab606ab88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37fc6133a58a50b20b65924cc90a76f2') in 0.000626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.130149 seconds.
+  path: Assets/LowlyPoly
+  artifactKey: Guid(8e6b4988fabffe74aaf682e5a61f28b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly using Guid(8e6b4988fabffe74aaf682e5a61f28b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '129d09931c3e62035e69729c63a80f82') in 0.000537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.073418 seconds.
+  path: Assets/LowlyPoly/Stylized Grass Texture
+  artifactKey: Guid(2f14d375d07e40941aa4c857f21eb94c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Stylized Grass Texture using Guid(2f14d375d07e40941aa4c857f21eb94c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0f12ab32f58ffa5ce6920699a663327') in 0.000825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.391468 seconds.
+  path: Assets/LowlyPoly/Stylized Grass Texture/Materials
+  artifactKey: Guid(855350d72edd5b546aba24877b32789a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Stylized Grass Texture/Materials using Guid(855350d72edd5b546aba24877b32789a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '738a59160c91bd7df7a48a10de082719') in 0.000502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.038043 seconds.
+  path: Assets/LowlyPoly/Stylized Grass Texture/Materials/Stylize_Grass.mat
+  artifactKey: Guid(5d8af8f434f69794eabd684fb44b4fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Stylized Grass Texture/Materials/Stylize_Grass.mat using Guid(5d8af8f434f69794eabd684fb44b4fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7755838d1a4ecc349a57fb28d81b02f4') in 0.332070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 79.797114 seconds.
+  path: Assets/LowPolyBarriersPackFree
+  artifactKey: Guid(b2587683aa4837c428de7fae976f2095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyBarriersPackFree using Guid(b2587683aa4837c428de7fae976f2095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c237e670432419fac78b134912781912') in 0.001609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.605 seconds
+Refreshing native plugins compatible for Editor in 3.96 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.263 seconds
+Domain Reload Profiling: 1864ms
+	BeginReloadAssembly (169ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (350ms)
+		LoadAssemblies (415ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (27ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1264ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (627ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (41ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (117ms)
+			ProcessInitializeOnLoadAttributes (424ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 3.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3283 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (102.3 KB). Loaded Objects now: 3914.
+Memory consumption went from 148.7 MB to 148.6 MB.
+Total: 3.093500 ms (FindLiveObjects: 0.350900 ms CreateObjectMapping: 0.105000 ms MarkObjects: 2.554800 ms  DeleteObjects: 0.081400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 66.357178 seconds.
+  path: Assets/PBR_Grass_Textures
+  artifactKey: Guid(95a7b819aa9b02144963c5d8916a2a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Grass_Textures using Guid(95a7b819aa9b02144963c5d8916a2a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b602d4b10d0c38c4b83dca18a6b53c03') in 0.001828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.178970 seconds.
+  path: Assets/PBR_Grass_Textures/Textures
+  artifactKey: Guid(e17347300b0062c438881104428f3d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Grass_Textures/Textures using Guid(e17347300b0062c438881104428f3d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82f1eed59183edfd90cdc4dd85402173') in 0.000552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.041066 seconds.
+  path: Assets/PBR_Grass_Textures/Textures/grass_01.png
+  artifactKey: Guid(15f6d1c452c8e9f4c896260d6bb8433d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Grass_Textures/Textures/grass_01.png using Guid(15f6d1c452c8e9f4c896260d6bb8433d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1db3fa759a250be4fee34bdf884598a3') in 0.106799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PBR_Grass_Textures/Textures/grass_04_maskmap.png
+  artifactKey: Guid(cd629ca419b808242a1d70610b903ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Grass_Textures/Textures/grass_04_maskmap.png using Guid(cd629ca419b808242a1d70610b903ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'febdb9a08efa3798640fb8575e2f66f7') in 0.050292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000029 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Tires/Track_tire_02_Style_05_3.fbx
-  artifactKey: Guid(9a4963c0f92619643bc43d7618d89ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Tires/Track_tire_02_Style_05_3.fbx using Guid(9a4963c0f92619643bc43d7618d89ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6595cbb848c031b1e1816e9b82e885bd') in 0.014260 seconds
+  path: Assets/PBR_Grass_Textures/Textures/grass_02_maskmap.png
+  artifactKey: Guid(ba2dd3eadecc05348b2371c35a5fef36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Grass_Textures/Textures/grass_02_maskmap.png using Guid(ba2dd3eadecc05348b2371c35a5fef36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2735b7998d06ba3db53e739c05e2fee7') in 0.029195 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Tires/Track_tire_02_Style_02_1.fbx
-  artifactKey: Guid(8d0bc456cf6ac4f46ad75c02d1e51eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Tires/Track_tire_02_Style_02_1.fbx using Guid(8d0bc456cf6ac4f46ad75c02d1e51eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c770384e05902c0c5848656cd455ddcd') in 0.014031 seconds
+  Time since last request: 0.000022 seconds.
+  path: Assets/PBR_Grass_Textures/Textures/grass_02_normal.png
+  artifactKey: Guid(66319961537921f499d8f1b181eabbc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Grass_Textures/Textures/grass_02_normal.png using Guid(66319961537921f499d8f1b181eabbc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f5d2d0d75396fd8bc2942b7c2ee66bc') in 0.030372 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Tires/Track_tire_02_Style_06_2.fbx
-  artifactKey: Guid(99aa6a3a0fe5cea4f8436db8492d6b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Tires/Track_tire_02_Style_06_2.fbx using Guid(99aa6a3a0fe5cea4f8436db8492d6b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5beae819129a6d743a91fa5b87a6ef2e') in 0.014457 seconds
+  Time since last request: 0.000036 seconds.
+  path: Assets/PBR_Grass_Textures/Textures/grass_01_normal.png
+  artifactKey: Guid(9955698b184ee234590c49a05a2a09e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Grass_Textures/Textures/grass_01_normal.png using Guid(9955698b184ee234590c49a05a2a09e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22d44a9a959b19b2ba109689a872f8e8') in 0.026832 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Tires/Track_tire_01_Style_yellow.fbx
-  artifactKey: Guid(09bd5067bcad6f94fafaec0a582bdfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Tires/Track_tire_01_Style_yellow.fbx using Guid(09bd5067bcad6f94fafaec0a582bdfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eefe30496d5a8f98401da623e628ab67') in 0.014933 seconds
+  Time since last request: 0.000024 seconds.
+  path: Assets/PBR_Grass_Textures/Textures/grass_03_smoothness.png
+  artifactKey: Guid(2c190177ab4e2914381dd2b8c54fc824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Grass_Textures/Textures/grass_03_smoothness.png using Guid(2c190177ab4e2914381dd2b8c54fc824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef1ab02a3e1279b3607ab5c7cb6735e2') in 0.033240 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Tires/Track_tire_02_Style_07_4.fbx
-  artifactKey: Guid(5a656e710c0039149b87ad3d4613c7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Tires/Track_tire_02_Style_07_4.fbx using Guid(5a656e710c0039149b87ad3d4613c7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4599389e2d43d5743ce4d43b5dc33295') in 0.014500 seconds
+  Time since last request: 0.000023 seconds.
+  path: Assets/PBR_Grass_Textures/Textures/grass_05_maskmap.png
+  artifactKey: Guid(64ca5e4c2567f2542be0737dda0b80dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Grass_Textures/Textures/grass_05_maskmap.png using Guid(64ca5e4c2567f2542be0737dda0b80dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aea73c1fdab043dcce549da3192f4d1') in 0.022571 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Tires/Track_tire_02_Style_03_1.fbx
-  artifactKey: Guid(ad8d1d898432f614b8ccfa1a301173d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Tires/Track_tire_02_Style_03_1.fbx using Guid(ad8d1d898432f614b8ccfa1a301173d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89b7d6cac79d354dacc69f39b2780f86') in 0.014014 seconds
+  Time since last request: 0.000028 seconds.
+  path: Assets/PBR_Grass_Textures/Textures/grass_02.png
+  artifactKey: Guid(a462a659d1259ff418d79c9b824333f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Grass_Textures/Textures/grass_02.png using Guid(a462a659d1259ff418d79c9b824333f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23f223e5cc69920d3cbd8a262b7ed0e6') in 0.022044 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Tires/Track_tire_02_Style_grey.fbx
-  artifactKey: Guid(7db7e224fe0a01047b1146bc42ad929d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Tires/Track_tire_02_Style_grey.fbx using Guid(7db7e224fe0a01047b1146bc42ad929d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ead461092472ce7f01cac11c476f65f') in 0.014039 seconds
+  Time since last request: 0.000031 seconds.
+  path: Assets/PBR_Grass_Textures/Textures/grass_02_ao.png
+  artifactKey: Guid(05bd764f495aa1e4db12454c9facc149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Grass_Textures/Textures/grass_02_ao.png using Guid(05bd764f495aa1e4db12454c9facc149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73fbc3d0e78583abe3f61b9b5930ddd') in 0.021990 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Tires/Track_tire_02_Style_orange.fbx
-  artifactKey: Guid(ea4a0fd83efb2964dabbf93eaabef0ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Tires/Track_tire_02_Style_orange.fbx using Guid(ea4a0fd83efb2964dabbf93eaabef0ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dfe44355712ea508ec1bb602c81054b') in 0.024262 seconds
+  Time since last request: 0.000015 seconds.
+  path: Assets/PBR_Grass_Textures/Textures/grass_04_smoothness.png
+  artifactKey: Guid(10798f9303ad0914d9d1d2032009291a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Grass_Textures/Textures/grass_04_smoothness.png using Guid(10798f9303ad0914d9d1d2032009291a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '875186977d970747fdc5475b226a3032') in 0.025919 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Tires/Track_tire_02_Style_yellow.fbx
-  artifactKey: Guid(558c0af4aede9e9468fe68fb119a762e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Tires/Track_tire_02_Style_yellow.fbx using Guid(558c0af4aede9e9468fe68fb119a762e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b288ebdbce4df39c62950a74d564246') in 0.022208 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Tires/Track_tire_02_Style_04_1.fbx
-  artifactKey: Guid(3e9af0f62e6b8ca478fbc78bc734f541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Tires/Track_tire_02_Style_04_1.fbx using Guid(3e9af0f62e6b8ca478fbc78bc734f541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f3f56cb10f6127453597b5814e9279a') in 0.022235 seconds
+  path: Assets/PBR_Grass_Textures/Textures/grass_01_smoohtness.png
+  artifactKey: Guid(4601883a585028646af509d494130b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Grass_Textures/Textures/grass_01_smoohtness.png using Guid(4601883a585028646af509d494130b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aec5d1f9da026fc4b12ebf864232831') in 0.027016 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Tires/Track_tire_01_Style_white.fbx
-  artifactKey: Guid(ccbb2f6506c3f4d4dbb02392687a3a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Tires/Track_tire_01_Style_white.fbx using Guid(ccbb2f6506c3f4d4dbb02392687a3a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0fe439fa2e5776d1a5f0a3546e720d7') in 0.044859 seconds
+  Time since last request: 0.000024 seconds.
+  path: Assets/PBR_Grass_Textures/Textures/grass_03_normal.png
+  artifactKey: Guid(a34dbb64b78c32a478a651544f7585a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Grass_Textures/Textures/grass_03_normal.png using Guid(a34dbb64b78c32a478a651544f7585a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfba6289fcffcbd5b184787d228e2111') in 0.027510 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Tires/Track_tire_02_Style_blue.fbx
-  artifactKey: Guid(76cc2e9f5ae1fac4da4dfe3f7cfc1ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Tires/Track_tire_02_Style_blue.fbx using Guid(76cc2e9f5ae1fac4da4dfe3f7cfc1ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b51ff0efefb464c6b2899c51073a1a5e') in 0.027049 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Tires/Track_tire_02_Style_07_2.fbx
-  artifactKey: Guid(5dbc31ed3abdf454495ab82bb71f5c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Tires/Track_tire_02_Style_07_2.fbx using Guid(5dbc31ed3abdf454495ab82bb71f5c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '621965e94f907527f6d6baa0c61ec53c') in 0.021623 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 1.862090 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Traffic_Lights
-  artifactKey: Guid(b5c59a27b83cb0e45a250ccbc84c8996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Traffic_Lights using Guid(b5c59a27b83cb0e45a250ccbc84c8996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e4bbee2514163b812f77026789ca6bb') in 0.000639 seconds
+  Time since last request: 0.816816 seconds.
+  path: Assets/PBR_Grass_Textures/example_scene
+  artifactKey: Guid(0cef683c874af8947a209d017ca9c3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Grass_Textures/example_scene using Guid(0cef683c874af8947a209d017ca9c3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '081fb692620ab105e8a0a08e36363784') in 0.000633 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.053994 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Traffic_Lights/Track_traffic_lights_01_Base.fbx
-  artifactKey: Guid(91b5da1a27d00fd4f90dde936f566afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Traffic_Lights/Track_traffic_lights_01_Base.fbx using Guid(91b5da1a27d00fd4f90dde936f566afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d1e9f7aaee1ece3faa7ebf2495b1e5') in 0.014546 seconds
+  Time since last request: 0.220371 seconds.
+  path: Assets/PBR_Grass_Textures/example_scene/grass_01.mat
+  artifactKey: Guid(9212c0db92a2b6b4191ee4bd0a08ffab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Grass_Textures/example_scene/grass_01.mat using Guid(9212c0db92a2b6b4191ee4bd0a08ffab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b05438bada752435be5a5307dea85ba2') in 0.317862 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Traffic_Lights/Track_traffic_lights_01_big_lights_green.fbx
-  artifactKey: Guid(bf758f1383d030b46a078e1619634b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Traffic_Lights/Track_traffic_lights_01_big_lights_green.fbx using Guid(bf758f1383d030b46a078e1619634b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5376bc04efbf234a7b82fd6acd2b9070') in 0.014527 seconds
+  Time since last request: 0.000021 seconds.
+  path: Assets/PBR_Grass_Textures/example_scene/grass_03.mat
+  artifactKey: Guid(52bb7962a4417464585e150c878aff14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Grass_Textures/example_scene/grass_03.mat using Guid(52bb7962a4417464585e150c878aff14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '292b916c43fca7a4e54d4cf5f7a5d053') in 0.289014 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Traffic_Lights/Track_traffic_lights_01_big_lights_white.fbx
-  artifactKey: Guid(a27e7f42b48992e49a21dc58db132da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Traffic_Lights/Track_traffic_lights_01_big_lights_white.fbx using Guid(a27e7f42b48992e49a21dc58db132da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88cb089cf33d3dfef22d3487e07ed9f1') in 0.013602 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Traffic_Lights/Track_traffic_lights_01_lights_green.fbx
-  artifactKey: Guid(bbcaf37784066734aae38e2195b45576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Traffic_Lights/Track_traffic_lights_01_lights_green.fbx using Guid(bbcaf37784066734aae38e2195b45576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf2fdc95aa301d1cd537eefeb772f6d') in 0.014462 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Traffic_Lights/Track_traffic_lights_01_lights_yellow.fbx
-  artifactKey: Guid(6b22917a57e89f749830f88f35b935c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Traffic_Lights/Track_traffic_lights_01_lights_yellow.fbx using Guid(6b22917a57e89f749830f88f35b935c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc9c1e5dc452df3f82322c7a27fb72ed') in 0.014321 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Traffic_Lights/Track_traffic_lights_02_example.fbx
-  artifactKey: Guid(8848f47a7428e5449a22cfec3972d316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Traffic_Lights/Track_traffic_lights_02_example.fbx using Guid(8848f47a7428e5449a22cfec3972d316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4d2232233b26d405c47e6e64738eda0') in 0.015443 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Traffic_Lights/Track_traffic_lights_02_lights_black_quadro.fbx
-  artifactKey: Guid(427496be297ed574b97d75fc8dcf2874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Traffic_Lights/Track_traffic_lights_02_lights_black_quadro.fbx using Guid(427496be297ed574b97d75fc8dcf2874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '015500f033365cf2397173ea9f228c69') in 0.014560 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Traffic_Lights/Track_traffic_lights_02_lights_green_double.fbx
-  artifactKey: Guid(c06c6f3423ab08240b574631567ab356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Traffic_Lights/Track_traffic_lights_02_lights_green_double.fbx using Guid(c06c6f3423ab08240b574631567ab356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2999e5d18638e47e1fd9a0555d5c504f') in 0.014466 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Traffic_Lights/Track_traffic_lights_02_lights_red_double.fbx
-  artifactKey: Guid(74849feef5e9dc549b0ee911b16587aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Traffic_Lights/Track_traffic_lights_02_lights_red_double.fbx using Guid(74849feef5e9dc549b0ee911b16587aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '849d7a207f8c7a7d7c5b91b5faf81f71') in 0.013526 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Traffic_Lights/Track_traffic_lights_02_lights_white.fbx
-  artifactKey: Guid(38e0b586706f33747870955adda0aeb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Traffic_Lights/Track_traffic_lights_02_lights_white.fbx using Guid(38e0b586706f33747870955adda0aeb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f19e4c248448fb153896c309517e81d5') in 0.013296 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Traffic_Lights/Track_traffic_lights_02_lights_yellow_double.fbx
-  artifactKey: Guid(5a1f44ae1de1f4f4d91b25cbd3d9badf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Traffic_Lights/Track_traffic_lights_02_lights_yellow_double.fbx using Guid(5a1f44ae1de1f4f4d91b25cbd3d9badf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ddc4d0e96f7b075d0b1a46a194dd478') in 0.016318 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Traffic_Lights/Track_traffic_lights_02_lights_yellow_quadro.fbx
-  artifactKey: Guid(bb5cc43a27174bf4ea67697afb241bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Traffic_Lights/Track_traffic_lights_02_lights_yellow_quadro.fbx using Guid(bb5cc43a27174bf4ea67697afb241bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfaed22f29efbeb8fc05f85b48abde08') in 0.016761 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Traffic_Lights/Track_traffic_lights_01_big_lights_yellow.fbx
-  artifactKey: Guid(81f40ef9ffabca24bae6b1281168e557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Traffic_Lights/Track_traffic_lights_01_big_lights_yellow.fbx using Guid(81f40ef9ffabca24bae6b1281168e557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95752a76cbb56a242df786a483fcb7d4') in 0.018251 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Traffic_Lights/Track_traffic_lights_01_lights_black.fbx
-  artifactKey: Guid(43657e5a6c44e97419c25bf2b9c794d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Traffic_Lights/Track_traffic_lights_01_lights_black.fbx using Guid(43657e5a6c44e97419c25bf2b9c794d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f707d3383ae09cf9cc051b9634ddb527') in 0.016859 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 32.314450 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Arches/Arches_01
-  artifactKey: Guid(9a0259a046727324f955dcea1dbbcb7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Arches/Arches_01 using Guid(9a0259a046727324f955dcea1dbbcb7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7334306780f0ce12a9aa238d1ec21a61') in 0.000553 seconds
+  Time since last request: 5.776976 seconds.
+  path: Assets/PBR_Grass_Textures/Scripts
+  artifactKey: Guid(204122b84026fba4bb1e2bb46271a3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Grass_Textures/Scripts using Guid(204122b84026fba4bb1e2bb46271a3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a220d42818abee945a2f68205e8b0676') in 0.000691 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.063127 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Arches/Arches_01/Arch_01_black.fbx
-  artifactKey: Guid(733a1dda1cc49d0498679a3960da1e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Arches/Arches_01/Arch_01_black.fbx using Guid(733a1dda1cc49d0498679a3960da1e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06955a121830de903726891af4cd774f') in 0.013329 seconds
+  Time since last request: 3.564465 seconds.
+  path: Assets/PBR_Grass_Textures/example_scene.unity
+  artifactKey: Guid(200011fc71925fc49aa69623b937f8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Grass_Textures/example_scene.unity using Guid(200011fc71925fc49aa69623b937f8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3afe32ec708c9486b4b9cbdabbdabb70') in 0.000587 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Arches/Arches_01/Arch_01_blue.fbx
-  artifactKey: Guid(27b4b17cc8c757b45808346ac5c58ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Arches/Arches_01/Arch_01_blue.fbx using Guid(27b4b17cc8c757b45808346ac5c58ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05d81cbc0cd59a9e272f7a741611f717') in 0.014486 seconds
+  Time since last request: 10.997339 seconds.
+  path: Assets/Scenes/racingscene.unity
+  artifactKey: Guid(de992c893e349cd438743176c44f0e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/racingscene.unity using Guid(de992c893e349cd438743176c44f0e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1173a41a0dc4a85ab0208ff093fa28f') in 0.000567 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Arches/Arches_01/Arch_01_green_full.fbx
-  artifactKey: Guid(1c21e06d9df43684c97623d45e003062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Arches/Arches_01/Arch_01_green_full.fbx using Guid(1c21e06d9df43684c97623d45e003062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deb0ec0ee1e0f300974670d204adfe2d') in 0.014726 seconds
+  Time since last request: 55.483822 seconds.
+  path: Assets/Epic Toon FX/Textures/Emojis/happy.png
+  artifactKey: Guid(b2091e8997f03334b9982307c497cc96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Textures/Emojis/happy.png using Guid(b2091e8997f03334b9982307c497cc96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ade64dec1ddbfa844a719643eaa707') in 0.021239 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Arches/Arches_01/Arch_01_orange_full.fbx
-  artifactKey: Guid(99486a8ca84c1884ea42b5b2bc38d11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Arches/Arches_01/Arch_01_orange_full.fbx using Guid(99486a8ca84c1884ea42b5b2bc38d11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4243bb35b491afbc366e48f88c23884e') in 0.018745 seconds
+  Time since last request: 0.000024 seconds.
+  path: Assets/Epic Toon FX/Textures/heart2.png
+  artifactKey: Guid(a6ef3e54e9e0f524abee5cb44d8666bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Textures/heart2.png using Guid(a6ef3e54e9e0f524abee5cb44d8666bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d242e941734e9e6629b2d6f1f4be87b') in 0.000879 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Arches/Arches_01/Arch_01_yellow.fbx
-  artifactKey: Guid(221ab7a7d639cb349a346d43f8cc4572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Arches/Arches_01/Arch_01_yellow.fbx using Guid(221ab7a7d639cb349a346d43f8cc4572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '287eecddbde681e076b9ba5188bb7225') in 0.044554 seconds
+  Time since last request: 0.000057 seconds.
+  path: Assets/Epic Toon FX/Textures/Emojis/heart.png
+  artifactKey: Guid(d0e4c740627a41948b4730bdde80159f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Textures/Emojis/heart.png using Guid(d0e4c740627a41948b4730bdde80159f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39f858bc2dcda0372bc10310cb5f29fe') in 0.023553 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/BEDRILL/Track_Environment/Models/Arches/Arches_01/Arch_01_red.fbx
-  artifactKey: Guid(50fa1535d151b8c438514e99f0b923aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment/Models/Arches/Arches_01/Arch_01_red.fbx using Guid(50fa1535d151b8c438514e99f0b923aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cc1e6ba43456551c07040c84828522b') in 0.036115 seconds
+  Time since last request: 45.007640 seconds.
+  path: Assets/Logos
+  artifactKey: Guid(b02a221c43a4e43458c35b0297362d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Logos using Guid(b02a221c43a4e43458c35b0297362d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd29d2a72f7206b06006c24125c622234') in 0.000929 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 578.156734 seconds.
-  path: Assets/stadium light.prefab
-  artifactKey: Guid(04f354ef382feb54ba678b53fff5ee82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/stadium light.prefab using Guid(04f354ef382feb54ba678b53fff5ee82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9480ec84d1b3eb19b4c8c5af738a061') in 0.012266 seconds
+  Time since last request: 32.204656 seconds.
+  path: Assets/PBR_Grass_Textures/example_scene/grass_03.mat
+  artifactKey: Guid(52bb7962a4417464585e150c878aff14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Grass_Textures/example_scene/grass_03.mat using Guid(52bb7962a4417464585e150c878aff14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d78af68a92a0299ddeeffce44325896') in 0.031469 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 172
-========================================================================
-Received Import Request.
-  Time since last request: 198.457494 seconds.
-  path: Assets/Track_billboard_type_03_yellow_02_obs Variant.prefab
-  artifactKey: Guid(24813821ea1761340ac09619711dac16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Track_billboard_type_03_yellow_02_obs Variant.prefab using Guid(24813821ea1761340ac09619711dac16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfd06f5d048fb3e5563a16bc0519f981') in 0.016744 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 67
-========================================================================
-Received Import Request.
-  Time since last request: 449.977563 seconds.
-  path: Assets/Track_billboard_type_03_yellow_02_obs.prefab
-  artifactKey: Guid(5a9bce0c9475e4a409fce1f90364e941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Track_billboard_type_03_yellow_02_obs.prefab using Guid(5a9bce0c9475e4a409fce1f90364e941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c557762d18a7d55e6a470fe9c6a7f392') in 0.014999 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 45
-========================================================================
-Received Import Request.
-  Time since last request: 288.773725 seconds.
-  path: Assets/Track_billboard_type_02_blue.prefab
-  artifactKey: Guid(7282c87863eaa954b8f9afa3444ad566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Track_billboard_type_02_blue.prefab using Guid(7282c87863eaa954b8f9afa3444ad566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1197660e8116ba8829792f12b80df399') in 0.014525 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 23
+Number of asset objects unloaded after import = 4
