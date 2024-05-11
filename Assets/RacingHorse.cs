@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public enum OwnerState
 {
@@ -19,15 +20,23 @@ public class RacingHorse : MonoBehaviour
 {
     [SerializeField] private ParticleSystem _speedBoostEffect;
     [SerializeField] private GameObject _crown;
-    public OwnerState ownerState;
-    public HorseState horseState;
+    [SerializeField] private Animator _jockeyAnimator;
+    public OwnerState OwnerState;
+    public HorseState HorseState;
+    public int HorseIndex;
     public float Speed;
     public Animator Animator;
     private Collider _collider;
     private bool _isSpeedBoosted = false;
+
+    private void Awake()
+    {
+        OwnerState = OwnerState.AI;
+    }
+
     private void Update()
     {
-        if (horseState == HorseState.Running)
+        if (HorseState == HorseState.Running)
         {
             transform.Translate(Vector3.forward * Time.deltaTime * Speed);
             RaceController.Instance.HorseCoveredDistances[this] += Time.deltaTime * Speed;
@@ -36,21 +45,28 @@ public class RacingHorse : MonoBehaviour
 
     public void StartRunning()
     {
-        horseState = HorseState.Running;
+        HorseState = HorseState.Running;
         Animator.SetBool("isRunning", true);
         Animator.SetFloat("AnimatorRunSpeed",Speed/10);
+        _jockeyAnimator.SetBool("isRunning",true);
     }
-    public void SetOwnerState(OwnerState ownerState)
+    public void SetOwnerState(OwnerState ownerState,int horseIndex = -1)
     {
-       
+        OwnerState = ownerState;
+        if (horseIndex != -1)
+        {
+            UIController.Instance.ActivateInputUI(horseIndex);
+        }
+            
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if(other.tag == "FinishLine")
         {
-            horseState = HorseState.Finished;
+            HorseState = HorseState.Finished;
             Animator.SetBool("isRunning", false);
+            _jockeyAnimator.SetBool("isRunning",false);
             RaceController.Instance.SetHorseFinished(this);
             //_collider.enabled = false;
         }
